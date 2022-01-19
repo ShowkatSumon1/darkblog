@@ -1,0 +1,88 @@
+/*
+Theme Name: darkblog
+Theme URI: https://wp.showkatsumon.com/darkblog/
+Author: Showkat Sumon
+Author URI: https://showkatsumon.com
+Description: Very easy to use and good looking blog theme.
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: darkblog
+Tags: one-column, three column, blog-theme, starblog, standblog, blog, blog-theme, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, sticky-menu
+*/
+
+.blog-thumb img {
+    height: 400px;
+}
+
+.logo a img {
+    width: 160px;
+    height: 45px;
+}
+
+.text-content a {
+    text-decoration: none;;
+}
+
+/********* Single page comments *****************/
+
+.comments-list li {
+    list-style-type: none;
+}
+
+.comments-list .children {
+    margin-left: 30px;
+}
+
+.comment-meta a {
+    font-size: 11px;
+}
+
+.comment-form-comment label {
+    display: none;
+}
+
+.logged-in-as a:first-child {
+    font-size: 13px;
+}
+
+.comment-respond {
+    margin-top: 10px;
+}
+
+.comments-title {
+    margin-bottom: 15px;
+}
+
+.comments-pagination {
+    margin-top: 6px;
+}
+
+.logo img {
+    margin-top: 15px;
+}
+
+p.post-nav-links span {
+    width: auto !important;
+}
+
+.date-title {
+    font-size: 40px;
+    color: #fff;
+}
+
+.search-highlight {
+    background-color: #ff0;
+    font-size: 22px;
+    color: red !important;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.posts {
+    margin-top: 100px;
+    text-align: center;
+}
